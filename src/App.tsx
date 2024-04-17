@@ -6,7 +6,7 @@ import MusicPlayer from './screens/MusicPlayer';
 const App = () => {
 
   const [isPlayerReady, setIsPlayerReady] = useState(false);
-
+  
   async function setup() {
     let isSetup = await setupPlayer()
     if (isSetup) {
